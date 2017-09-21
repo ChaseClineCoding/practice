@@ -16,7 +16,6 @@ Car.prototype.draw = function () {
   })
 
   $('body').append(this.carElement)
-  return this.carElement
 }
 
 Car.prototype.moveRight = function () {
