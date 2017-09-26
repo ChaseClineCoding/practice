@@ -55,3 +55,6 @@ Car.prototype.moveDown = function () {
 }
 var tesla = new Car(20, 20)
 var nissan = new Car(100, 200)
+
+
+setInterval(nissan.moveRight.bind(nissan), 30)
